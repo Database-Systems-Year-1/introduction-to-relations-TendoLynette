@@ -1,5 +1,4 @@
-SELECT * FROM public.employee
-ORDER BY emp_id ASC  Create table Employee(emp_id varchar(50),first_name varchar(50),last_name varchar(50),birth_date date,sex varchar(50),salary varchar(50),super_id varchar(50),branch_id varchar(50),primary key(emp_id));
+Create table Employee(emp_id varchar(50),first_name varchar(50),last_name varchar(50),birth_date date,sex varchar(50),salary varchar(50),super_id varchar(50),branch_id varchar(50),primary key(emp_id));
 insert into Employee values('100','David','Wallace','1967-11-17','M','250000','NULL','1');
 insert into Employee values('101','Jan','Levinson','1961-05-11','F','110000','100','1');
 insert into Employee values('102','Michael','Scott','1964-03-15','M','75000','100','2');
