@@ -1,0 +1,1 @@
+Create table employee(emp_id int,primary key(emp_id),first_name varchar(7),last_name varchar(8),birth_date int,sex varchar(1),salary int,super_id int,branch_id int)
