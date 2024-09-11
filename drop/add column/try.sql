@@ -8,7 +8,6 @@ Insert into employee values(105,'Stanley','Hudson',1958-02-19,'M',69000,102,2);
 Insert into employee values(106,'Josh','Porter',1969-09-05,'M',78000,100,3);
 Insert into employee values(107,'Andy','Bernard',1973-07-22,'M',65000,106,3);
 Insert into employee values(108,'Jim','Halpert',1978-10-01,'M',71000,106,3);
-
-ALTER TABLE employee
-ADD third_name VARCHAR(8);
 SELECT * FROM employee;
+ALTER TABLE employee  
+ALTER COLUMN emp_id TYPE INT;
