@@ -10,5 +10,5 @@ Insert into employee values(107,'Andy','Bernard',1973-07-22,'M',65000,106,3);
 Insert into employee values(108,'Jim','Halpert',1978-10-01,'M',71000,106,3);
 
 ALTER TABLE employee
-DROP COLUMN last_name;
-SELECT * FROM employee; 
+ADD third_name VARCHAR(8);
+SELECT * FROM employee;
